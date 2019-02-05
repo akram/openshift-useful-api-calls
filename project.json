@@ -1,0 +1,12 @@
+{
+    "kind": "Project",
+    "apiVersion": "project.openshift.io/v1",
+    "metadata": {
+        "name": "PROJECT",
+        "annotations": {
+            "openshift.io/description": "",
+            "openshift.io/display-name": "",
+            "openshift.io/requester": "s-cloud@sigma.fr"
+        }
+    }
+}

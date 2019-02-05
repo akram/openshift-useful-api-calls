@@ -1,0 +1,15 @@
+{
+    "kind": "ResourceQuota",
+    "apiVersion": "v1",
+    "metadata": {
+        "name": "quota"
+    },
+    "spec": {
+        "hard": {
+            "cpu": "CPU",
+            "memory": "RAM",
+            "persistentvolumeclaims": "PVC",
+            "resourcequotas": "1"
+        }
+    }
+}
