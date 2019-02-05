@@ -36,6 +36,10 @@ sed s/CPU/1/g quota.json | sed s/RAM/1G/g | sed s/PVC/10/g | curl $CURL_OPTIONS 
 CURL_OPTIONS="-k -XPOST -d@-"
 sed s/LABEL/env=prod/g namespace-patch.json |  curl $CURL_OPTIONS $HEADERS $URL/api/v1/namespaces/my-project
 
+## Set label on project
+
+curl -k -XPATCH -d@-  -H "Authorization: Bearer $TOKEN" -H 'Accept: application/json' -H 'Content-Type: application/strategic-merge-patch+json' $URL/api/v1/namespaces/my-project < namespace-patch.json
+
 
 
 
