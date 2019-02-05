@@ -1,4 +1,4 @@
-# S-Cloud API Calls
+# Useful API Calls
 
 ## Preamble
 ```
