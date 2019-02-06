@@ -37,4 +37,3 @@ curl -k -XPATCH -d@-  -H "Authorization: Bearer $TOKEN" -H 'Accept: application/
 
 ```
 
-
